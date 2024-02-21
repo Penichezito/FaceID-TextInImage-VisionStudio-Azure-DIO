@@ -1,6 +1,6 @@
 # Lab 02 Visão Computacional Bootcamp DIO 
 
-Neste LAB, o desaio foi a criação de reconhecimento facial, identificação de dados em documentos e também o reconhecimento de elementos em imagens utilizando o Vision Studio no Microsoft Azure AI + Machine Learning. Esses exercícios tem como objetivo melhorar nossas habilidades na aplicação prática de tecnologias de reconhecimento, proporcionando uma compreensão mais profunda e prática desses conceitos essenciais.
+Neste LAB, o desafio foi a criação de reconhecimento facial, identificação de dados em documentos e também o reconhecimento de elementos em imagens utilizando o Vision Studio no Microsoft Azure AI + Machine Learning. Esses exercícios tem como objetivo melhorar nossas habilidades na aplicação prática de tecnologias de reconhecimento, proporcionando uma compreensão mais profunda e prática desses conceitos essenciais.
 
 
 #***Detectar rostos no Vision Studio***
