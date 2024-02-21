@@ -55,21 +55,22 @@ Em seguida, conecte o recurso de serviços de IA do Azure provisionado acima ao 
 
 4. Selecione uma imagem no seu computador de amostra e observe os dados de detecção facial retornados.
 
-![]()
+![face id azure]()
 
-7. Faça upload de ........... e revise os detalhes de detecção de rosto retornados.
+Repita os mesmos procedimento para os exercícios abaixo mudando apenas para o modelo a ser usado 
 
-8. Localize o arquivo chamado ........... ; que contém a seguinte imagem:
+# ***Legendas de Imagens***
 
-![]()
 
-9. Faça upload de .......... e revise os detalhes de detecção de rosto retornados.
+![caption image azure]()
 
-10. Localize o arquivo chamado ........... ; que contém a seguinte imagem:
 
-![]()
+# ***Text de Imagens***
 
-12. Faça upload de store-camera-3.jpg e revise os detalhes de detecção de rosto retornados. Observe como o Azure AI Face não detectou o rosto que está obscurecido.
+
+![extract text to image azure]()
+
+
 
 Neste exercício você explorou como os serviços de IA do Azure podem detectar rostos em imagens. Se você tiver tempo, sinta-se à vontade para experimentar as imagens de exemplo ou algumas de suas próprias imagens.
 
