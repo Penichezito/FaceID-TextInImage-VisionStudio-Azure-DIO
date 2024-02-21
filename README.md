@@ -55,7 +55,7 @@ Em seguida, conecte o recurso de serviços de IA do Azure provisionado acima ao 
 
 4. Selecione uma imagem no seu computador de amostra e observe os dados de detecção facial retornados.
 
-![face id azure]()
+![face id azure](https://github.com/Penichezito/Visao-Computacional-Azure-BootcampDIO/blob/main/output/output/faceid.jpg)
 
 Repita os mesmos procedimento para os exercícios abaixo mudando apenas para o modelo a ser usado 
 
