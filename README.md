@@ -53,11 +53,7 @@ Em seguida, conecte o recurso de serviços de IA do Azure provisionado acima ao 
 
 3. No subtítulo **Experimente** , reconheça a política de uso de recursos lendo e marcando a caixa.
 
-4. Selecione cada uma das imagens de amostra e observe os dados de detecção facial retornados.
-
-5. Agora vamos tentar com algumas de nossas próprias imagens. Vá té a pasta inputs nesse repositório para baixar pegar o caminho das imagens utilizadas no exercício. 
-
-6. Localize o arquivo chamado ....... ; que contém a seguinte imagem:
+4. Selecione uma imagem no seu computador de amostra e observe os dados de detecção facial retornados.
 
 ![]()
 
