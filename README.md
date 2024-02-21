@@ -3,7 +3,7 @@
 Neste LAB, o desafio foi a criação de reconhecimento facial, identificação de dados em documentos e também o reconhecimento de elementos em imagens utilizando o Vision Studio no Microsoft Azure AI + Machine Learning. Esses exercícios tem como objetivo melhorar nossas habilidades na aplicação prática de tecnologias de reconhecimento, proporcionando uma compreensão mais profunda e prática desses conceitos essenciais.
 
 
-#***Detectar rostos no Vision Studio***
+#***Utilizando o Vision Studio***
 
 As soluções de visão geralmente exigem que a IA seja capaz de detectar rostos humanos. Suponha que a empresa varejista fictícia Northwind Traders queira localizar onde os clientes estão em uma loja para melhor atendê-los. Uma maneira de fazer isso é determinar se há algum rosto nas imagens e, em caso afirmativo, retornar as coordenadas da caixa delimitadora que mostram sua localização.
 
