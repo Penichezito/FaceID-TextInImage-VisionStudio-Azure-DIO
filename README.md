@@ -1,6 +1,6 @@
 # FaceID-TextInImage-VisionStudio-Azure-DIO
 
-Neste LAB, o desaio foi a criação de reconhecimento facial, identificação de dados em documentos e também o reconhecimento de elementos em imagens utilizando o Vision Studio no Microsoft Azure AI + Machine Learning. Através desses exercícios, aprimoraremos nossas habilidades na aplicação prática de tecnologias de reconhecimento, proporcionando uma compreensão mais profunda e prática desses conceitos essenciais.
+Neste LAB, o desaio foi a criação de reconhecimento facial, identificação de dados em documentos e também o reconhecimento de elementos em imagens utilizando o Vision Studio no Microsoft Azure AI + Machine Learning. Esses exercícios tem como objetivo melhorar nossas habilidades na aplicação prática de tecnologias de reconhecimento, proporcionando uma compreensão mais profunda e prática desses conceitos essenciais.
 
 
 #***Detectar rostos no Vision Studio***
@@ -14,30 +14,28 @@ Você pode usar o serviço Azure AI Face com um recurso multisserviço de servi�
 
 1. Em outra guia do navegador, abra o portal do Azure em https://portal.azure.com , entrando com a conta da Microsoft associada à sua assinatura do Azure.
 
-2. Clique no botão ＋Criar um recurso e pesquise os serviços de IA do Azure . Selecione criar um plano de serviços de IA do Azure . Você será levado a uma página para criar um recurso de serviços de IA do Azure. Configure-o com as seguintes configurações:
+2. Clique no botão **＋Criar um recurso** e pesquise os serviços de IA do Azure . Selecione **criar** um plano de serviços de IA do Azure . Você será levado a uma página para criar um recurso **de serviços de IA do Azure**. Configure-o com as seguintes configurações:
 
- + Assinatura : sua assinatura do Azure .
- + Grupo de recursos : Selecione ou crie um grupo de recursos com um nome exclusivo .
- + Região : Leste dos EUA.
- + Nome : Insira um nome exclusivo .
- + Nível de preços : Padrão S0.
- + Ao marcar esta caixa, confirmo que li e compreendi todos os termos abaixo : Selecionado .
+  + **Assinatura** : sua assinatura do Azure .
+  + **Grupo de recursos** : Selecione ou crie um grupo de recursos com um nome exclusivo .
+  + **Região** : Leste dos EUA.
+  + **Nome** : Insira um nome exclusivo .
+  + **Nível de preços** : Padrão S0.
+  + **Ao marcar esta caixa, confirmo que li e compreendi todos os termos abaixo** : Selecionado .
 
-3. Selecione Revisar + criar e depois Criar e aguarde a conclusão da implantação.
-
+3. Selecione **Revisar** **+ criar** e depois **Criar** e aguarde a conclusão da implantação.
 
 # ***Conecte seu recurso de serviço de IA do Azure ao Vision Studio***
 
 Em seguida, conecte o recurso de serviços de IA do Azure provisionado acima ao Vision Studio.
 
-1. Em outra guia do navegador, navegue até Vision Studio em [](https://portal.vision.cognitive.azure.com).
+1. Em outra guia do navegador, navegue até **Vision Studio** em [](https://portal.vision.cognitive.azure.com).
 
 2. Entre com sua conta e certifique-se de usar o mesmo diretório onde você criou seu recurso de serviços de IA do Azure.
 
-3. Na página inicial do Vision Studio, selecione Visualizar todos os recursos no título Introdução ao Vision .
+3. Na página inicial do Vision Studio, selecione **Visualizar todos os recursos** no título **Introdução ao Vision** .
    
 ![imagem começar com o vision studio](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/media/analyze-images-vision/vision-resources.png)
-
 
 O link Visualizar todos os recursos está destacado em Introdução ao Vision no Vision Studio.
 
@@ -50,40 +48,43 @@ A caixa de diálogo Selecionar um recurso para trabalhar é exibida com o recurs
 Feche a página de configurações selecionando o “x” no canto superior direito da tela.
 
 #***Detecte rostos no Vision Studio***
-Num navegador web, navegue até Vision Studio em https://portal.vision.cognitive.azure.com .
 
-Na página inicial Introdução ao Vision , selecione a guia Face e, em seguida, selecione o bloco Detectar rostos em uma imagem .
+1. Num navegador web, navegue até Vision Studio em https://portal.vision.cognitive.azure.com .
 
-No subtítulo Experimente , reconheça a política de uso de recursos lendo e marcando a caixa.
+2. Na página inicial Introdução ao Vision , selecione a guia Face e, em seguida, selecione o bloco Detectar rostos em uma imagem .
 
-Selecione cada uma das imagens de amostra e observe os dados de detecção facial retornados.
+3. No subtítulo Experimente , reconheça a política de uso de recursos lendo e marcando a caixa.
 
-Agora vamos tentar com algumas de nossas próprias imagens. Selecione https://aka.ms/mslearn-detect-faces para baixar detect-faces.zip . Em seguida, abra a pasta no seu computador.
+4. Selecione cada uma das imagens de amostra e observe os dados de detecção facial retornados.
 
-Localize o arquivo chamado store-camera-1.jpg ; que contém a seguinte imagem:
+5. Agora vamos tentar com algumas de nossas próprias imagens. Selecione https://aka.ms/mslearn-detect-faces para baixar detect-faces.zip . Em seguida, abra a pasta no seu computador.
 
-Uma imagem de pessoas em uma loja.
+6. Localize o arquivo chamado store-camera-1.jpg ; que contém a seguinte imagem:
 
-Faça upload de store-camera-1.jpg e revise os detalhes de detecção de rosto retornados.
 
-Localize o arquivo chamado store-camera-2.jpg ; que contém a seguinte imagem:
 
-Uma imagem de mais pessoas em uma loja.
+7. Faça upload de store-camera-1.jpg e revise os detalhes de detecção de rosto retornados.
 
-Faça upload de store-camera-2.jpg e revise os detalhes de detecção de rosto retornados.
+8. Localize o arquivo chamado store-camera-2.jpg ; que contém a seguinte imagem:
 
-Localize o arquivo chamado store-camera-3.jpg ; que contém a seguinte imagem:
 
-Imagem de pessoas em uma loja com uma planta obscurecendo o rosto.
 
-Faça upload de store-camera-3.jpg e revise os detalhes de detecção de rosto retornados. Observe como o Azure AI Face não detectou o rosto que está obscurecido.
+
+9. Faça upload de store-camera-2.jpg e revise os detalhes de detecção de rosto retornados.
+
+10. Localize o arquivo chamado store-camera-3.jpg ; que contém a seguinte imagem:
+
+
+
+11. Faça upload de store-camera-3.jpg e revise os detalhes de detecção de rosto retornados. Observe como o Azure AI Face não detectou o rosto que está obscurecido.
 
 Neste exercício você explorou como os serviços de IA do Azure podem detectar rostos em imagens. Se você tiver tempo, sinta-se à vontade para experimentar as imagens de exemplo ou algumas de suas próprias imagens.
 
 #***Limpar***
 Se não pretende fazer mais exercícios, exclua todos os recursos que não precisa mais. Isso evita acumular custos desnecessários.
 
-Abra o portal do Azure em https://portal.azure.com e selecione o grupo de recursos que contém o recurso que você criou.
-Selecione o recurso e selecione Excluir e depois Sim para confirmar. O recurso é então excluído.
-Saber mais
-Para saber mais sobre o que você pode fazer com este serviço, consulte a página do serviço Azure AI Face .
+Abra o **portal do Azure** em [](https://portal.azure.com) e selecione o grupo de recursos que contém o recurso que você criou.
+Selecione o recurso e selecione **Excluir** e depois **Sim** para confirmar. O recurso é então excluído.
+
+# **Saber mais**
+Para saber mais sobre o que você pode fazer com este serviço, consulte a [página do serviço Azure AI Face](https://learn.microsoft.com/pt-br/azure/ai-services/computer-vision/overview-identity) .
