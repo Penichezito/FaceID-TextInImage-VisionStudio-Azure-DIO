@@ -3,13 +3,13 @@
 Neste LAB, o desafio foi a criação de reconhecimento facial, identificação de dados em documentos e também o reconhecimento de elementos em imagens utilizando o Vision Studio no Microsoft Azure AI + Machine Learning. Esses exercícios tem como objetivo melhorar nossas habilidades na aplicação prática de tecnologias de reconhecimento, proporcionando uma compreensão mais profunda e prática desses conceitos essenciais.
 
 
-#***Utilizando o Vision Studio***
+# ***Utilizando o Vision Studio***
 
 As soluções de visão geralmente exigem que a IA seja capaz de detectar rostos humanos. Suponha que a empresa varejista fictícia Northwind Traders queira localizar onde os clientes estão em uma loja para melhor atendê-los. Uma maneira de fazer isso é determinar se há algum rosto nas imagens e, em caso afirmativo, retornar as coordenadas da caixa delimitadora que mostram sua localização.
 
 Para testar as capacidades de deteção facial do serviço Azure AI Face, utilizará o [Azure Vision Studi0](https://portal.vision.cognitive.azure.com/gallery/featured) . Esta é uma plataforma baseada em UI que permite explorar os recursos do Azure AI Vision sem a necessidade de escrever nenhum código.
 
-#***Crie um recurso de serviços de IA do Azure***
+# ***Crie um recurso de serviços de IA do Azure***
 Você pode usar o serviço Azure AI Face com um recurso multisserviço de serviços de IA do Azure . Se ainda não o fez, crie um recurso de serviços de IA do Azure na sua assinatura do Azure.
 
 1. Em outra guia do navegador, abra o portal do Azure em https://portal.azure.com , entrando com a conta da Microsoft associada à sua assinatura do Azure.
@@ -45,7 +45,7 @@ Em seguida, conecte o recurso de serviços de IA do Azure provisionado acima ao 
 
 5. Feche a página de configurações selecionando o “x” no canto superior direito da tela.
 
-#***Detecte rostos no Vision Studio***
+# ***Detecte rostos no Vision Studio***
 
 1. Num navegador web, navegue até **Vision Studio** em https://portal.vision.cognitive.azure.com .
 
