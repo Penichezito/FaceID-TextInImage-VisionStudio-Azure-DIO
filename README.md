@@ -57,18 +57,17 @@ Em seguida, conecte o recurso de serviços de IA do Azure provisionado acima ao 
 
 ![face id azure](https://github.com/Penichezito/Visao-Computacional-Azure-BootcampDIO/blob/main/output/output/faceid.jpg)
 
-Repita os mesmos procedimento para os exercícios abaixo mudando apenas para o modelo a ser usado 
+Repita os mesmos procedimento para os exercícios apenas escolhendo o card com o modelo de IA a ser itulizado 
 
 # ***Legendas de Imagens***
 
-
-![caption image azure]()
-
-
-# ***Text de Imagens***
+![caption image azure](https://github.com/Penichezito/Visao-Computacional-Azure-BootcampDIO/blob/main/output/output/caption-image.jpg)
 
 
-![extract text to image azure]()
+# ***Extração de texto das Imagens***
+
+
+![extract text to image azure](https://github.com/Penichezito/Visao-Computacional-Azure-BootcampDIO/blob/main/output/output/text-image.jpg)
 
 
 
