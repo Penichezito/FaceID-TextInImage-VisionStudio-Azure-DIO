@@ -41,7 +41,7 @@ Em seguida, conecte o recurso de serviços de IA do Azure provisionado acima ao 
 
 > ! **Nota** : *Se o seu recurso não estiver listado, pode ser necessário atualizar a página.*
 
-!(https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/media/analyze-images-vision/default-resource.png)
+![](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/media/analyze-images-vision/default-resource.png)
 
 5. Feche a página de configurações selecionando o “x” no canto superior direito da tela.
 
