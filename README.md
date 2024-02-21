@@ -37,46 +37,43 @@ Em seguida, conecte o recurso de serviços de IA do Azure provisionado acima ao 
    
 ![imagem começar com o vision studio](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/media/analyze-images-vision/vision-resources.png)
 
-O link Visualizar todos os recursos está destacado em Introdução ao Vision no Vision Studio.
+4. Na página Selecione um recurso para trabalhar , passe o cursor do mouse sobre o recurso que você criou acima na lista e marque a caixa à esquerda do nome do recurso e selecione Selecionar como recurso padrão .
 
-Na página Selecione um recurso para trabalhar , passe o cursor do mouse sobre o recurso que você criou acima na lista e marque a caixa à esquerda do nome do recurso e selecione Selecionar como recurso padrão .
+> ! **Nota** : *Se o seu recurso não estiver listado, pode ser necessário atualizar a página.*
 
-Nota : Se o seu recurso não estiver listado, pode ser necessário atualizar a página.
+!(https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/media/analyze-images-vision/default-resource.png)
 
-A caixa de diálogo Selecionar um recurso para trabalhar é exibida com o recurso de Serviços Cognitivos cog-ms-learn-vision-SUFFIX destacado e marcado.  O botão Selecionar como recurso padrão está destacado.
-
-Feche a página de configurações selecionando o “x” no canto superior direito da tela.
+5. Feche a página de configurações selecionando o “x” no canto superior direito da tela.
 
 #***Detecte rostos no Vision Studio***
 
-1. Num navegador web, navegue até Vision Studio em https://portal.vision.cognitive.azure.com .
+1. Num navegador web, navegue até **Vision Studio** em https://portal.vision.cognitive.azure.com .
 
-2. Na página inicial Introdução ao Vision , selecione a guia Face e, em seguida, selecione o bloco Detectar rostos em uma imagem .
+2. Na página **inicial Introdução ao Vision** , selecione a guia **Face** e, em seguida, selecione o bloco **Detectar rostos em uma imagem** .
 
-3. No subtítulo Experimente , reconheça a política de uso de recursos lendo e marcando a caixa.
+3. No subtítulo **Experimente** , reconheça a política de uso de recursos lendo e marcando a caixa.
 
 4. Selecione cada uma das imagens de amostra e observe os dados de detecção facial retornados.
 
-5. Agora vamos tentar com algumas de nossas próprias imagens. Selecione https://aka.ms/mslearn-detect-faces para baixar detect-faces.zip . Em seguida, abra a pasta no seu computador.
+5. Agora vamos tentar com algumas de nossas próprias imagens. Vá té a pasta inputs nesse repositório para baixar pegar o caminho das imagens utilizadas no exercício. 
 
-6. Localize o arquivo chamado store-camera-1.jpg ; que contém a seguinte imagem:
+6. Localize o arquivo chamado ....... ; que contém a seguinte imagem:
 
+![]()
 
+7. Faça upload de ........... e revise os detalhes de detecção de rosto retornados.
 
-7. Faça upload de store-camera-1.jpg e revise os detalhes de detecção de rosto retornados.
+8. Localize o arquivo chamado ........... ; que contém a seguinte imagem:
 
-8. Localize o arquivo chamado store-camera-2.jpg ; que contém a seguinte imagem:
+![]()
 
+9. Faça upload de .......... e revise os detalhes de detecção de rosto retornados.
 
+10. Localize o arquivo chamado ........... ; que contém a seguinte imagem:
 
+![]()
 
-9. Faça upload de store-camera-2.jpg e revise os detalhes de detecção de rosto retornados.
-
-10. Localize o arquivo chamado store-camera-3.jpg ; que contém a seguinte imagem:
-
-
-
-11. Faça upload de store-camera-3.jpg e revise os detalhes de detecção de rosto retornados. Observe como o Azure AI Face não detectou o rosto que está obscurecido.
+12. Faça upload de store-camera-3.jpg e revise os detalhes de detecção de rosto retornados. Observe como o Azure AI Face não detectou o rosto que está obscurecido.
 
 Neste exercício você explorou como os serviços de IA do Azure podem detectar rostos em imagens. Se você tiver tempo, sinta-se à vontade para experimentar as imagens de exemplo ou algumas de suas próprias imagens.
 
